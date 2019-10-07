@@ -151,6 +151,6 @@ right: 65%;
 @keyframes mymove13 {
    0% {top: -10px; left:10%;}
   25% {top: -10px; left: 90%;}
-  50% {top: 90%;}
-  75% {top 90%; right: 100%;}
+  50% {top: 90%; left: 90%}
+  75% {top 100%; left: 0;}
   100% {top: -10px; left:10%;}
