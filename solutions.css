@@ -51,3 +51,11 @@ background: red;
 .ex-6-img:hover {
   filter: grayscale(1);
 }
+
+/* es 7 filter */
+.ex-7-img: {
+  transition: 10s;
+}
+.ex-7-img:hover {
+  filter: grayscale(1) blur(5px)
+}
