@@ -23,3 +23,31 @@ background: red;
 .ex-3-square:hover {
   border-radius: 50%;
 }
+
+/* es 4 */
+
+.ex-4-square {
+  transition: 3s;
+}
+.ex-4-square:hover {
+  opacity: 0;
+}
+
+/* es 5 */
+
+.ex-5-square {
+  transition: 3s;
+}
+.ex-5-square:hover {
+  width: 80px;
+  height: 80px;
+}
+.ex-5-square:active {
+  width: 40px;
+  height: 40px;
+}
+
+/* es 6 filter */
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
