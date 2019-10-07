@@ -1,0 +1,25 @@
+/* Es 1 */
+.ex-1-square {
+ transition: background 5s;
+}
+.ex-1-square:hover{
+background: red;
+}
+
+/* es 2 */
+
+.ex-2-square {
+  transition: 5s;
+}
+.ex-2-square:active {
+  width: 100%;
+}
+
+/* es 3 */
+
+.ex-3-square {
+  transition: 3s;
+}
+.ex-3-square:hover {
+  border-radius: 50%;
+}
