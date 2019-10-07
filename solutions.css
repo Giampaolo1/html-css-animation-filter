@@ -88,6 +88,7 @@ animation-name: mymove10;
 animation-duration: 2s;
 animation-iteration-count: infinite;
 animation-direction: reverse;
+animation-timing-function: linear;
 }
 @keyframes mymove10 {
 /* 0% {transform:rotate(90deg);}
@@ -108,4 +109,16 @@ animation-direction: reverse;
 /* 25% {transform:rotate(90deg);}
 55% {transform:rotate(180deg);} */
 75% {transform:rotate(270deg);}
+}
+
+/* ex 12 animare il bottone */
+
+.ex-12-top-white:hover {
+  animation-name: mymove12;
+  animation-duration: 3s;
+}
+@keyframes mymove12 {
+
+100% {
+left: 200px;
 }
