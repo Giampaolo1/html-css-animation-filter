@@ -113,12 +113,43 @@ animation-timing-function: linear;
 
 /* ex 12 animare il bottone */
 
-.ex-12-top-white:hover {
+.ex-12-button:hover .ex-12-top-white {
   animation-name: mymove12;
-  animation-duration: 3s;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
 }
 @keyframes mymove12 {
 
 100% {
-left: 200px;
+left: 65%;
 }
+}
+
+/* IDEA:  */
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: mymove12b;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+@keyframes mymove12b {
+
+100% {
+right: 65%;
+}
+}
+
+
+/* ex13:  */
+
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: mymove13;
+  animation-duration: 3s;
+}
+@keyframes mymove13 {
+
+  25% {left: 75%;}
+  50% {left: 75%; top: 50%; }
+  /* 75% {left: 75%;} */
