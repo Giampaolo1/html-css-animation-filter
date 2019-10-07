@@ -84,16 +84,28 @@ background: red;
 
 /* es 10 rotate */
 .ex-10-icon {
-animation-name: mymove;
-animation-duration: 1s;
+animation-name: mymove10;
+animation-duration: 2s;
 animation-iteration-count: infinite;
-
 }
-@keyframes mymove {
-
+@keyframes mymove10 {
 /* 0% {transform:rotate(90deg);}
 0% {transform:rotate(180deg);}
 0% {transform:rotate(270deg);} */
 0% {transform:rotate(360deg);}
+}
 
+/* ex 11 */
+
+.ex-11-icon:hover {
+  animation-name: mymove11;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes mymove11 {
+25% {transform:rotate(90deg);}
+55% {transform:rotate(180deg);}
+75% {transform:rotate(370deg);}
 }
