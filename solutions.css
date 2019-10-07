@@ -84,15 +84,16 @@ background: red;
 
 /* es 10 rotate */
 .ex-10-icon {
-  position: relative;
-  animation: mymove 2s infinite;
+animation-name: mymove;
+animation-duration: 1s;
+animation-iteration-count: infinite;
 
 }
 @keyframes mymove {
 
-25% {transform:rotate(90deg);}
-50% {transform:rotate(180deg);}
-75% {transform:rotate(270deg);}
-100% {transform:rotate(360deg)}
+/* 0% {transform:rotate(90deg);}
+0% {transform:rotate(180deg);}
+0% {transform:rotate(270deg);} */
+0% {transform:rotate(360deg);}
 
 }
