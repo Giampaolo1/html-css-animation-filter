@@ -146,10 +146,11 @@ right: 65%;
 
 .ex-13-button:hover .ex-13-top-white {
   animation-name: mymove13;
-  animation-duration: 3s;
+  animation-duration: 6s;
 }
 @keyframes mymove13 {
-
-  25% {left: 75%;}
-  50% {left: 75%; top: 50%; }
-  /* 75% {left: 75%;} */
+   0% {top: -10px; left:10%;}
+  25% {top: -10px; left: 90%;}
+  50% {top: 90%;}
+  75% {top 90%; right: 100%;}
+  100% {top: -10px; left:10%;}
